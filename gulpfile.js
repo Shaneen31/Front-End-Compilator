@@ -1,17 +1,18 @@
 /*
     Gulp Configuration File
-    Version: 1.0.0
+    Version: 0.3.0
 */
+
+
+// General settings.
+var production = false,
+    devServerAdress = '127.0.0.1:8000';
 
 // Path settings.
 var sass_path = 'static/scss/',
     css_path =  'static/css/',
     js_path = 'static/js/',
     html_path = 'templates/';
-
-// General settings.
-var production = false,
-    devServerAdress = '127.0.0.1:8000';
 
 // Browsers compatibility settings.
  var browser_support = [
