@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "0.12"
+  - "0.11"
+  - "0.10"
+
+before_script:
+  - git clone --depth 1 git://github.com/zurb/foundation ../foundation && cd ../Front-End-Compilator
+  - mkdir static
+  - chmod -R 777 static
+  - cp -R ../foundation/scss ../Front-End-Compilator/static
+
+script:
+  - gulp sass
