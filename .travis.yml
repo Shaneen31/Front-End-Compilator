@@ -13,6 +13,7 @@ before_script:
   - mkdir static
   - chmod -R 777 static
   - cp -R ../foundation/scss ../Front-End-Compilator/static
+  - npm install -g codeclimate-test-reporter
 
 script:
   - gulp sass
