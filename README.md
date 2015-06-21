@@ -1,10 +1,9 @@
 # [Front-End Compilator](https://github.com/Shaneen31/Front-End-Compilator)
 
+[![GitHub version](https://badge.fury.io/gh/Shaneen31%2FFront-End-Compilator.svg)](http://badge.fury.io/gh/Shaneen31%2FFront-End-Compilator)
 [![Build Status](https://travis-ci.org/Shaneen31/Front-End-Compilator.svg)](https://travis-ci.org/Shaneen31/Front-End-Compilator)
 [![Code Climate](https://codeclimate.com/github/Shaneen31/Front-End-Compilator/badges/gpa.svg)](https://codeclimate.com/github/Shaneen31/Front-End-Compilator)
-
-Version: 0.3.0
-
+[![npm version](https://badge.fury.io/js/npm.svg)](http://badge.fury.io/js/npm)
 
 ## About
 This compilator is made to automate repetive task webdeveloppement, especially front-end.
