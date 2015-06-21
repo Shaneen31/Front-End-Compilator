@@ -4,6 +4,9 @@ node_js:
   - "0.12"
   - "0.11"
   - "0.10"
+addons:
+  code_climate:
+    repo_token: e6a08e281f2c88d05d33bf0ba7ac7206e7a376c80cc62bb00e0c057dd5a4538f codeclimate < lcov.info
 
 before_script:
   - git clone --depth 1 git://github.com/zurb/foundation ../foundation && cd ../Front-End-Compilator
@@ -13,3 +16,6 @@ before_script:
 
 script:
   - gulp sass
+
+after_script:
+  - codeclimate < lcov.info
