@@ -6,8 +6,8 @@
 [![npm version](https://badge.fury.io/js/npm.svg)](http://badge.fury.io/js/npm)
 
 ## About
-This compilator is made to automate repetive task webdeveloppement, especially front-end.
-This scipt is made using  [node.js](https://nodejs.org/), [gulp](http://gulpjs.com/) and [libsass](http://libsass.org/).
+This compilator is made to automate repetive task in webdeveloppement, especially front-end.
+This script is made using  [node.js](https://nodejs.org/), [gulp](http://gulpjs.com/) and [libsass](http://libsass.org/).
 
 ## Features
 
